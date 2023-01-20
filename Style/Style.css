@@ -62,3 +62,34 @@ height: 471px;
 
 
 }
+
+
+/* Aqui as Configuracoes do section para ID (Nao Imagens) */
+section#Redes-Sociais{
+
+
+   text-align: right; /* Para colocar as imagens do lado Direito   */
+
+}
+
+/* Aqui as Configuracoes do section dos links/imagens */
+
+section#Redes-Sociais img { /* Temos uma Section redes sociais e dentro temos imagens */
+
+     width: 50px; /* Aqui o tamanho das imagens   */
+     margin: 10px; /* Para separar um pouco as imagens */
+     border-radius: 50%; /* Deixando as imagens redondas  */
+     box-shadow: 2px 2px 5px black; /* Sombra em volta das imagens/botoes */
+     box-sizing: border-box; /*  Aqui a Borda faz parte da caixa nao deixando os botoes se mexer quano passar o mouse em cima conforme o HOVER abaixo  */
+
+}
+
+/* Para quando passar o mause em cima da imagem mudar a cor  */
+section#Redes-Sociais img:hover {
+
+     border: 2px solid white;  /* quando passar o mouse a cor da borda mostra cor branca */
+     transform: translate(-3px, -3px); /* Quando passar o mouse a imagem da uma levantada */
+     box-shadow: 5px 5px 10px black; /* Quando levanta a sombra  tbm levanta */
+     transition: trasform .5s, border 4s; /* A imagem levanta depois de em meio segundo e a borda depois de 4 segundo */
+    
+}
