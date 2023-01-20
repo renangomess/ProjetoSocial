@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+
+
+     height: 100vh; /* Altura total do navegador*/
+     width: 100vw; /* Largura total do navegador*/
+     background-color: black;
+
+}
+
+body { /* Aqui e a configuracao somente para o Body */
+
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center ; /* Aqui adicionamos a imagem fundo madeira, no-repeat para nao duplicar, top de centroLembrando que os dois pontos .. e para voltar para pasta ja que aqui esta na pasta stilo*/
+    background: cover; /* PAra cubrir a tela inteira */
+    background-attachment: fixed; /* Para ficar fixo e nao ter rolagem off 
+
+}
+
+main {
+
+     position: relative; /* Relacionamento de fora */
+     height: 100vh; /* se vc diminuir para 90vh vc vera que o heith diminuir*/
+   
+
+}
+
+/* Configuracoes do celular que ficara no meio da tela*/
+
+section#telefone {
+ 
+     position: absolute; /* Relacionamento de dentro Para Centralizar */
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);/* Para Centralizar */
+
+     height: 627px; /* Altura da imagem do celular */
+     width: 311px; /* Largura da imagem do celular */
+     background: url('../imagens/frame-iphone.png') no-repeat; /* Aqui colocando a imagem celuar e o no repeat e para nao aparecer a imagem duplicada. Lembrando que os dois pontos .. e para voltar para pasta ja que aqui esta na pasta stilo*/
+     
+
+}
+
+Iframe#tela {
+
+/* Aqui o posicionamento do arquivo home dentro do celular */
+position: relative;
+top: 80px;
+left: 22px;
+width: 269px;
+height: 471px;
+
+
+
+}
