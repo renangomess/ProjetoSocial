@@ -1,0 +1,52 @@
+
+
+
+/*  ABAIXO CONFIGURACAO PARA TODOS OS AQUIVOS SOOCIAL CRIADOS como YOUTUBE, GITHUB, FACEBOOK etc.    */
+
+
+*  { /* Configuracao de inicializacao, colocando margem en padding nos ARQUIVOS Social */
+
+    margin: 0px; /* Margem do Arquivo YOUTUBE */
+    padding: 0px; /* Padding do Arquivo YOUTUBE */
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  ::-webkit-scrollbar { /* A imagem esta com uma pequena rolagem, entao esta configuracao ele esconde o scrollbar e nao tem mais rolagem lateral  */
+
+    width: 0px;  /* Zerando a largura do scrollbar */
+    height: 0px; /* Zerando a altura do scrollbar  */
+
+
+  }
+
+
+  img { /* Configurando da imagem */
+
+     width: 70vh; /* Largura 70vh da Imagem para caber dentro do IFRAME/Celular */
+
+
+
+  }
+
+  a {  /* Configurando o Link  */
+
+       display: block; /* Para Mostrar o ACESSE na parte de baixo */
+       background-color: darkred; /* Aqui ocupando a linha inteira (Mas ira arrumar) */
+       padding: 20px; /* Deixando a linha/background mais gordinho  */
+       text-align: center; /* Centralizando o Acesse */
+       font-weight: bolder; /* Deixando o Acesse em negrito */
+       text-decoration: none;
+       color: white; /* Cor do Acesse em Branco */
+
+  }
+
+  a:hover { /* Quando passar o mause em cima  */
+
+    background-color: blue; /* Quando passar o mause em cima aparece a cor azul */
+
+
+  }
+
+
+
